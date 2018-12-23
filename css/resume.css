@@ -202,3 +202,6 @@ a:hover, a:focus, a:active {
 .location{
   display: block;
 }
+.fa-globe-americas{
+  margin-right: 8px;
+}
