@@ -82,6 +82,10 @@ p.lead {
 .dev-icons .list-inline-item i:hover {
   color: #00A8AA;
 }
+.dev-icons .list-inline-item{
+  /*width:60px;*/
+  text-align: center;
+}
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
@@ -204,4 +208,68 @@ a:hover, a:focus, a:active {
 }
 .fa-globe-americas{
   margin-right: 8px;
+}
+
+
+/* Tooltip text */
+.tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    background-color: #00A8AA;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-105px);
+    margin-left: -65px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size:medium;
+  }
+
+/* Tooltip arrow */
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #00A8AA transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltips:hover + .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltips.fa-database + .tooltiptext {
+    transform: translateY(-154px);  
+}
+
+.img_grey + .tooltiptext {
+    margin-left: -70px;  
+}
+
+img.tooltips{
+  width: 48px;
+}
+
+.img_grey{
+  margin-left: -60px;
+  margin-top: -12px;
+}
+
+.img_blue{
+  margin-left: -10px;
+  margin-top: -12px;
+}
+
+.img_grey:hover{
+  visibility: : hidden;
+  opacity: 0;
 }
