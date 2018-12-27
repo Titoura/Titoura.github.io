@@ -281,3 +281,8 @@ a.cv + .tooltiptext{
   margin-left: -109px;
 }
 
+a.cv + .tooltiptext.en{
+  width: 150px;
+  margin-left:-119px;
+}
+
