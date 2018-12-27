@@ -273,3 +273,11 @@ img.tooltips{
   visibility: : hidden;
   opacity: 0;
 }
+a + .tooltiptext{
+  transform:translateY(-45px);
+  margin-left: -112px;
+}
+a.cv + .tooltiptext{
+  margin-left: -109px;
+}
+
