@@ -278,11 +278,18 @@ a + .tooltiptext{
   margin-left: -112px;
 }
 a.cv + .tooltiptext{
-  margin-left: -109px;
+  margin-left: -113px;
 }
-
+a.cv + .tooltiptext.eco{
+  margin-top:  -24px;
+  margin-left:-108px;
+}
 a.cv + .tooltiptext.en{
   width: 150px;
+  margin-left:-123px;
+}
+a.cv + .tooltiptext.en.eco{
+  margin-top: : -24px;
   margin-left:-119px;
 }
 
