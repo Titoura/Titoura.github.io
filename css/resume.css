@@ -194,14 +194,24 @@ a {
 a:hover, a:focus, a:active {
   color: #00A8AA;
 }
+
+.languages{
+  position: initial;
+}
+@media (min-width: 992px) {
+  #sideNav > .languages{
+    position:absolute;
+    bottom: 8px;
+  }
+}
+.disabled{
+  text-decoration: underline;
+}
 .languages>a{
   color: white;
 }
 .languages>span{
   color: white;
-}
-.disabled{
-  text-decoration: underline;
 }
 .location{
   display: block;
