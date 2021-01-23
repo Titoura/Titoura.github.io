@@ -220,6 +220,10 @@ a:hover, a:focus, a:active {
   margin-right: 8px;
 }
 
+.gihub-repo-link-icon{
+  margin-right: 8px;
+}
+
 
 /* Tooltip text */
 .tooltiptext {
@@ -232,8 +236,8 @@ a:hover, a:focus, a:active {
     border-radius: 6px;
     position: absolute;
     z-index: 1;
-    transform: translateY(-105px);
-    margin-left: -65px;
+    transform: translateY(-40px);
+    margin-left: -88px;
     opacity: 0;
     transition: opacity 0.3s;
     font-size:medium;
@@ -258,7 +262,15 @@ a:hover, a:focus, a:active {
 }
 
 .tooltips.fa-database + .tooltiptext {
-    transform: translateY(-154px);  
+    transform: translateY(-88px);  
+}
+
+.tooltips.fa-android + .tooltiptext {
+  transform: translateY(-64px);  
+}
+
+.tooltips.fa-apple + .tooltiptext {
+  transform: translateY(-64px);  
 }
 
 .img_grey + .tooltiptext {
@@ -280,7 +292,7 @@ img.tooltips{
 }
 
 .img_grey:hover{
-  visibility: : hidden;
+  visibility: hidden;
   opacity: 0;
 }
 a + .tooltiptext{
@@ -299,7 +311,7 @@ a.cv + .tooltiptext.en{
   margin-left:-123px;
 }
 a.cv + .tooltiptext.en.eco{
-  margin-top: : -24px;
+  margin-top: -24px;
   margin-left:-119px;
 }
 
